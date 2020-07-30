@@ -1,0 +1,154 @@
+h2 {
+  text-align: center;
+}
+
+#top-logo {
+  display: block;
+  margin: 10px auto;
+  width: 70%;
+}
+
+#direction {
+  font-size: 1.3em;
+  font-weight: bold;
+  text-align: center;
+  color: red;
+}
+
+#user {
+  display: flex;
+}
+
+form {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.item {
+  text-align: center;
+  font-weight: bold;
+}
+
+.artist {
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+  opacity: 1;
+  font-size: 48px;
+  font-weight: bold;
+  color: white;
+  line-height: 200px;
+}
+
+.selection {
+  opacity: 0.5;
+}
+
+#artist_0 {
+  background-image: url("https://images.unsplash.com/photo-1508695666381-69deeaa78ccb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60");
+  background-size: cover;
+}
+
+#artist_1 {
+  background-image: url("https://images.unsplash.com/photo-1527735095040-147bffb4cede?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=401&q=80");
+  background-size: cover;
+}
+
+#artist_2 {
+  background-image: url("https://images.unsplash.com/photo-1493246886675-0042d822e0db?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60");
+  background-size: cover;
+}
+
+#artist_3 {
+  background-image: url("https://images.unsplash.com/photo-1534050055340-71c7fa612a99?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=465&q=80");
+  background-size: cover;
+}
+
+#artist_4 {
+  background-image: url("https://images.unsplash.com/photo-1529333752647-3a0633f6429d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=677&q=80");
+  background-size: cover;
+}
+
+#artist_5 {
+  background-image: url("https://images.unsplash.com/photo-1505282722405-413748d3de7a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60");
+  background-size: cover;
+}
+
+.review {
+  background-color: yellow;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+.review a {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+#btn, #back {
+  width: 180px;
+  height: 40px;
+  margin: 20px auto;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 5px;
+  background-color: blue;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
+
+#logout {
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 5px;
+  background-color: blue;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
+
+#back a, #logout a {
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+
+#result .row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#greet {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 40px;
+  margin-right: 10px;
+}
+
+#youtube {
+  width: 400px;
+  height: 300px;
+}
+
+@media (max-width: 500px) {
+  .item {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .artist {
+    width: 100%;
+    background-position: center;
+  }
+
+  #youtube {
+    width: 90%;
+  }
+}
